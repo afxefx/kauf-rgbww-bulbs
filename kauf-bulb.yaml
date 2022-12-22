@@ -80,9 +80,9 @@ esphome:
     name: $project_name
     version: $project_ver_num($project_ver_let)
 
-  on_boot:
-    then:
-      - script.execute: script_quick_boot
+#  on_boot:
+#    then:
+#      - script.execute: script_quick_boot
 
 
 # https://esphome.io/components/button/index.html
@@ -98,11 +98,11 @@ button:
 # https://esphome.io/components/wifi.html
 wifi:
 
-  ssid: initial_ap
-  password: asdfasdfasdfasdf
+#  ssid: initial_ap
+#  password: asdfasdfasdfasdf
 
   # using fast_connect as default since it is required for hidden networks.
-  fast_connect: true
+#  fast_connect: true
 
   forced_addr: 0
   global_addr: global_forced_addr
