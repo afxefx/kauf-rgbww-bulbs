@@ -212,6 +212,7 @@ light:
     forced_addr: 52
     global_addr: global_forced_addr
     restore_mode: $light_restore_mode
+    effects: !include effectskauf.yaml
     on_turn_on:
       - script.execute: $sub_on_turn_on
     on_turn_off:
